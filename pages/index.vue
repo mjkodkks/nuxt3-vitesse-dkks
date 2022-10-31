@@ -1,6 +1,11 @@
 <template>
   <div>
     <Logos mb-6 />
+    <div class="block">
+      <NuxtLink to="/dkks">
+        DKKs page
+      </NuxtLink>
+    </div>
     <Suspense>
       <PageView />
       <template #fallback>
