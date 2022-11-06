@@ -8,7 +8,6 @@ definePageMeta({
 <template>
   <div class="flex justify-center items-center gap-2">
     DKKs on fire <span>
-
       <svg width="32" height="32" viewBox="0 0 512 512">
         <path
           fill="#FF8F1F"
@@ -24,5 +23,9 @@ definePageMeta({
         />
       </svg>
     </span>
+  </div>
+  <div class="flex gap-4 justify-center">
+    <Button label="Primary" class="p-button-raised p-button-rounded" />
+    <Button label="Primary" class="p-button-outlined" />
   </div>
 </template>
