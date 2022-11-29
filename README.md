@@ -1,13 +1,9 @@
-<p align="center">
-<img src="https://user-images.githubusercontent.com/11247099/140462375-7b7ac4db-35b7-453c-8a05-13d8d20282c4.png" width="600"/>
-</p>
-
 <h2 align="center">
-<a href="https://github.com/antfu/vitesse">Vitesse</a> for Nuxt 3
+<a href="https://github.com/antfu/vitesse">Vitesse</a> for Nuxt 3 By DKKs 👋🏻
 </h2><br>
 
 <pre align="center">
-🧪 Working in Progress
+🆓 Free 🆓
 </pre>
 
 <p align="center">
@@ -23,9 +19,9 @@
 
 - ⚡️ Vite - Instant HMR
 
-- 🎨 [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.
+- 🎨 [TailwindCSS](https://tailwindcss.com/) - A utility-first CSS framework packed.
 
-- 😃 Use icons from any icon sets in Pure CSS, powered by [UnoCSS](https://github.com/antfu/unocss)
+- 😃 Thousands of icons, one unified framework, powered by [iconify](https://iconify.design/)
 
 - 🔥 The `<script setup>` syntax
 
@@ -45,7 +41,6 @@
 
 - [VueUse](https://github.com/vueuse/vueuse) - collection of useful composition APIs.
 - [ColorMode](https://github.com/nuxt-community/color-mode-module) - dark and Light mode with auto detection made easy with Nuxt.
-- [UnoCSS](https://github.com/antfu/unocss) - the instant on-demand atomic CSS engine.
 - [Pinia](https://pinia.esm.dev/) - intuitive, type safe, light and flexible Store for Vue.
 
 ## IDE
@@ -67,6 +62,9 @@ We recommend using [VS Code](https://code.visualstudio.com/) with [Volar](https:
 
 ### GitHub Template
 
+[Create a repo from this template on GitHub](https://github.com/mjkodkks/nuxt3-vitesse-dkks/generate).
+
+```for original``` 
 [Create a repo from this template on GitHub](https://github.com/antfu/vitesse-nuxt3/generate).
 
 ### Clone to local
@@ -74,7 +72,7 @@ We recommend using [VS Code](https://code.visualstudio.com/) with [Volar](https:
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-npx degit antfu/vitesse-nuxt3 my-nuxt3-app
+npx degit mjkodkks/nuxt3-vitesse-dkks my-nuxt3-app
 cd my-nuxt3-app
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 ```
