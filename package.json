@@ -11,15 +11,15 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.27.0",
-    "@iconify-json/carbon": "^1.1.10",
-    "@iconify-json/twemoji": "^1.1.5",
     "@nuxtjs/color-mode": "^3.1.8",
     "@pinia/nuxt": "^0.4.4",
-    "@unocss/nuxt": "^0.45.30",
     "@vueuse/nuxt": "^9.5.0",
+    "autoprefixer": "^10.4.13",
     "eslint": "^8.28.0",
     "nuxt": "3.0.0",
     "pinia": "^2.0.24",
+    "postcss": "^8.4.19",
+    "tailwindcss": "^3.2.4",
     "typescript": "^4.9.3"
   }
 }

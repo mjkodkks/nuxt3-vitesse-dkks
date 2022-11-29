@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Logos mb-6 />
+    <Logos class="mb-2" />
     <div class="block">
       <NuxtLink to="/dkks">
         DKKs page
