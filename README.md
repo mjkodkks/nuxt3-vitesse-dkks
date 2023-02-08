@@ -67,6 +67,43 @@ We recommend using [VS Code](https://code.visualstudio.com/) with [Volar](https:
 ```for original``` 
 [Create a repo from this template on GitHub](https://github.com/antfu/vitesse-nuxt3/generate).
 
+## After fork this 
+
+### Development
+```
+pnpm i
+pnpm dev
+```
+
+### Deploy
+For SSR
+```
+pnpm run build
+```
+For CSR or SSG
+
+nuxt.config.ts
+```
+{
+    ...,
+    ssr: false,
+    ...,
+}
+```
+then 
+```
+pnpm run generate
+```
+
+### I don't like pnpm 😵
+You can use npm or yarn to new package manager for this project 👍 . 
+
+1) search all 'pnpm' keyword in project then remove all code and config.
+
+2) try ```npm install && npm run dev``` or ```yarn install && yarn dev```
+3) deploy for ssr ```npm run build``` or ```yarn build``` and for csr, ssg ```npm run generate``` or ```yarn generate```
+
+
 ### Clone to local
 
 If you prefer to do it manually with the cleaner git history
