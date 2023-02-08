@@ -1,17 +1,13 @@
-<h2 align="center">
-<a href="https://github.com/antfu/vitesse">Vitesse</a> for Nuxt 3 By DKKs 👋🏻
-</h2><br>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/55c355a9-3735-425c-9aa8-06ca4e2f6a0b/deploy-status)](https://app.netlify.com/sites/vitesse-nuxt3-dkks/deploys)
 
-<pre align="center">
-🆓 Free 🆓
-</pre>
+# [Vitesse](https://github.com/antfu/vitesse)</a> for Nuxt 3 By DKKs 👋🏻
 
-<p align="center">
-<br>
-<a href="https://vitesse-nuxt3.netlify.app/">🖥 Online Preview</a>
-<br><br>
+[🖥 Online Preview](https://vitesse-nuxt3.netlify.app/)</a>  🆓 Free 🆓
+
+
 <a href="https://stackblitz.com/github/antfu/vitesse-nuxt3"><img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt=""></a>
 </p>
+
 
 ## Features
 
@@ -75,7 +71,7 @@ pnpm i
 pnpm dev
 ```
 
-### Deploy
+### Deployment
 For SSR
 ```
 pnpm run build
