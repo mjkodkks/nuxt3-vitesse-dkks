@@ -2,6 +2,9 @@
   "extends": "./.nuxt/tsconfig.json",
   "include": ["./types/**/*.d.ts"],
   "compilerOptions": {
-    "strict": true
+    "strict": true,
+    "types": [
+      "vite-plugin-pwa/client"
+    ]
   }
 }
