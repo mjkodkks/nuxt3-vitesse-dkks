@@ -35,4 +35,9 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  typescript: {
+    tsConfig: {
+      include: ['./types/**/*.d.ts'],
+    },
+  },
 })
