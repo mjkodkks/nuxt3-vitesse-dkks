@@ -31,6 +31,8 @@
 
 - 🦾 TypeScript, of course
 
+- 🩻 [Nuxt Devtools](https://devtools.nuxtjs.org/) ```npx nuxi@latest devtools enable``` 
+
 ## Plugins
 
 ### Nuxt Modules
@@ -42,6 +44,11 @@
 ## IDE
 
 We recommend using [VS Code](https://code.visualstudio.com/) with [Volar](https://github.com/johnsoncodehk/volar) to get the best experience (You might want to disable Vetur if you have it).
+
+## Dev tools
+Improve your DX, finding bugs, tracking data flow and pinia
+- [Vue Devtool](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en)
+- [Nuxt Devtools](https://devtools.nuxtjs.org/) ```npx nuxi@latest devtools enable``` 
 
 ## Variations
 
