@@ -107,6 +107,12 @@ You can use npm or yarn to new package manager for this project 👍 .
 3) deploy for ssr ```npm run build``` or ```yarn build``` and for csr, ssg ```npm run generate``` or ```yarn generate```
 
 
+### Update nuxt version by yourself
+```
+nuxi upgrade --force
+```
+** [Nuxt Version Here](https://github.com/nuxt/nuxt/releases)
+
 ### Clone to local
 
 If you prefer to do it manually with the cleaner git history
