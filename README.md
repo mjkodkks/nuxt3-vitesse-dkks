@@ -5,7 +5,7 @@
 [🖥 Online Preview](https://vitesse-nuxt3.netlify.app/)</a>  🆓 Free 🆓
 
 
-<a href="https://stackblitz.com/github/antfu/vitesse-nuxt3"><img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt=""></a>
+<a href="https://stackblitz.com/github/mjkodkks/nuxt3-vitesse-dkks"><img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt=""></a>
 </p>
 
 
