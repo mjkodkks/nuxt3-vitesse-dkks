@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.38.3",
+    "@nuxt/devtools": "^0.4.1",
     "@nuxtjs/color-mode": "^3.2.0",
     "@pinia/nuxt": "^0.4.7",
     "@vueuse/nuxt": "^9.13.0",

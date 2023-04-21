@@ -8,6 +8,7 @@ export default defineNuxtConfig({
       ],
     },
   },
+
   nitro: {
     esbuild: {
       options: {
@@ -20,24 +21,32 @@ export default defineNuxtConfig({
       ignore: ['/hi'],
     },
   },
+
   modules: [
+    '@nuxt/devtools',
     '@vueuse/nuxt',
     '@pinia/nuxt',
     '@nuxtjs/color-mode',
   ],
+
   colorMode: {
     classSuffix: '',
   },
+
   css: ['~/assets/css/main.css'],
+
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
+
   typescript: {
     tsConfig: {
       include: ['./types/**/*.d.ts'],
     },
   },
+
+  devtools: {}
 })
