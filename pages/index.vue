@@ -22,7 +22,7 @@
           tailwindcss v3.3.1
         </li>
         <li class="text-left">
-          nuxt v3.4.1
+          nuxt v3.4.2
         </li>
         <!-- ... -->
       </ul>
