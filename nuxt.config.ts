@@ -48,5 +48,7 @@ export default defineNuxtConfig({
     },
   },
 
-  devtools: {}
+  devtools: {
+    enabled: true
+  }
 })
