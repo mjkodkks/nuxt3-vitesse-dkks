@@ -1,9 +1,10 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/55c355a9-3735-425c-9aa8-06ca4e2f6a0b/deploy-status)](https://app.netlify.com/sites/vitesse-nuxt3-dkks/deploys)
 
-# [Vitesse](https://github.com/antfu/vitesse)</a> for Nuxt 3 By DKKs 👋🏻
+# [Vitesse](https://github.com/antfu/vitesse)</a> for Nuxt 3 By DKKs 👋🏻 
 
-[🖥 Online Preview](https://vitesse-nuxt3.netlify.app/)</a>  🆓 Free 🆓
+[🖥 Demo 🖥](https://vitesse-nuxt3-dkks.netlify.app/)</a> 
 
+Or try edit on Stackblitz 
 
 <a href="https://stackblitz.com/github/mjkodkks/nuxt3-vitesse-dkks"><img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt=""></a>
 </p>
@@ -50,18 +51,12 @@ Improve your DX, finding bugs, tracking data flow and pinia
 - [Vue Devtool](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en)
 - [Nuxt Devtools](https://devtools.nuxtjs.org/) ```npx nuxi@latest devtools enable``` 
 
-## Variations
+## Variations Original
 
 - [vitesse](https://github.com/antfu/vitesse) - Opinionated Vite Starter Template
 - [vitesse-lite](https://github.com/antfu/vitesse-lite) - Lightweight version of Vitesse
 - [vitesse-nuxt-bridge](https://github.com/antfu/vitesse-nuxt-bridge) - Vitesse for Nuxt 2 with Bridge
 - [vitesse-webext](https://github.com/antfu/vitesse-webext) - WebExtension Vite starter template
-
-## Try it now!
-
-### Online
-
-<a href="https://stackblitz.com/github/antfu/vitesse-nuxt3"><img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt=""></a>
 
 ### GitHub Template
 
