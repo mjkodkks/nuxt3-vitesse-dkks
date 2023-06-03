@@ -1,12 +1,16 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/55c355a9-3735-425c-9aa8-06ca4e2f6a0b/deploy-status)](https://app.netlify.com/sites/vitesse-nuxt3-dkks/deploys)
 
-# [Vitesse](https://github.com/antfu/vitesse)</a> for Nuxt 3 By DKKs 👋🏻 
+# [Vitesse](https://github.com/antfu/vitesse) for Nuxt 3 By DKKs 👋🏻 
 
-[🖥 Demo 🖥](https://vitesse-nuxt3-dkks.netlify.app/)</a> 
+[🖥 DEMO 🖥](https://vitesse-nuxt3-dkks.netlify.app/)
 
-Or try edit on Stackblitz 
+Or try edit on ```Stackblitz```
 
 <a href="https://stackblitz.com/github/mjkodkks/nuxt3-vitesse-dkks"><img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt=""></a>
+
+Or ```CodeSandbox```
+
+[![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?style=flat-square&logo=codesandbox)](https://githubbox.com/mjkodkks/nuxt3-vitesse-dkks)
 </p>
 
 
