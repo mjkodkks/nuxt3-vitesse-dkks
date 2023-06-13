@@ -38,6 +38,8 @@ Or ```CodeSandbox```
 
 - 🩻 [Nuxt Devtools](https://devtools.nuxtjs.org/) ```npx nuxi@latest devtools enable``` 
 
+- 📱 [Nuxtr](https://marketplace.visualstudio.com/items?itemName=Nuxtr.nuxtr-vscode) Use nuxt commands with a few clicks.
+
 ## Plugins
 
 ### Nuxt Modules
@@ -49,6 +51,7 @@ Or ```CodeSandbox```
 ## IDE
 
 We recommend using [VS Code](https://code.visualstudio.com/) with [Volar](https://github.com/johnsoncodehk/volar) to get the best experience (You might want to disable Vetur if you have it).
+- [Nuxtr](https://marketplace.visualstudio.com/items?itemName=Nuxtr.nuxtr-vscode) An extension offering commands and tools to make your experience with Nuxt.js more pleasant.
 
 ## Dev tools
 Improve your DX, finding bugs, tracking data flow and pinia
