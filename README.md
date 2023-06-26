@@ -110,6 +110,11 @@ You can use npm or yarn to new package manager for this project 👍 .
 
 
 ### Update nuxt version by yourself
+update package.json (pnpm example)
+```
+pnpm update nuxt
+```
+then
 ```
 npx nuxi upgrade --force
 ```
