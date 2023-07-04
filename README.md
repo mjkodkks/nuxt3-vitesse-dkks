@@ -81,6 +81,9 @@ pnpm dev
 ```
 
 ### Deployment
+
+[full documentation](https://nuxt.com/docs/getting-started/deployment)
+
 For SSR
 ```
 pnpm run build

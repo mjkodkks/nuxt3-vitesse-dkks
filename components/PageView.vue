@@ -1,13 +1,14 @@
 <script setup lang="ts">
-const { data } = await useFetch('/api/pageview')
+const { data, pending } = await useFetch('/api/pageview')
 
-const time = useTimeAgo(computed(() => data.value.startAt))
+const time = useTimeAgo(computed(() => data.value?.startAt || 0))
 </script>
 
 <template>
-  <div text-gray:80>
-    <span font-500 text-gray>{{ data.pageview }}</span>
+  <div>
+    <div v-if="pending">loading...</div>
+    <span v-if="data">{{ data.pageview }}</span>
     page views since
-    <span text-gray>{{ time }}</span>
+    <span>{{ time }}</span>
   </div>
 </template>
