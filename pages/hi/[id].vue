@@ -7,9 +7,6 @@ watchEffect(() => {
   user.setNewName(route.params.id as string)
 })
 
-definePageMeta({
-  layout: 'home',
-})
 </script>
 
 <template>
