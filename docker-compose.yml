@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  nuxt-web-service:
+    build:
+      context: .
+    image: nuxt_web_image
+    container_name: nuxt_web_container
+    volumes:
+    - .:/app
+    - /app/node_modules
+    ports:
+      - "3000:3000"
