@@ -103,6 +103,21 @@ then
 pnpm run generate
 ```
 
+### Docker
+If you use Docker for standalone server
+
+I already create ```Dockerfile``` and ```docker-compose.yml``` for easy deployment in (SSR Mode)
+
+Easy to use via run ```.sh``` file (Linux or Mac OS). For windows i will update soon 🥰
+```sh
+./deploy-prod.sh
+```
+or use inline command like this
+```sh
+docker-compose down && docker-compose up -d --build && docker image prune --force --filter "dangling=true"
+```
+
+
 ### I don't like pnpm 😵
 You can use npm or yarn to new package manager for this project 👍 . 
 
