@@ -8,6 +8,7 @@
     "Nuxtr.nuxtr-vscode",
     "yoavbls.pretty-ts-errors",
     "bradlc.vscode-tailwindcss",
-    "steoates.autoimport"
+    "steoates.autoimport",
+    "heybourn.headwind"
   ]
 }
