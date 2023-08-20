@@ -108,10 +108,8 @@ If you use Docker for standalone server
 
 I already create ```Dockerfile``` and ```docker-compose.yml``` for easy deployment in (SSR Mode)
 
-Easy to use via run ```.sh``` file (Linux or Mac OS). For windows i will update soon 🥰
-```sh
-./deploy-prod.sh
-```
+easy to use via run ```./deploy-prod.sh``` file (Linux or Mac OS). For windows ```./deploy-prod.bat```
+
 or use inline command like this
 ```sh
 docker-compose down && docker-compose up -d --build && docker image prune --force --filter "dangling=true"
@@ -127,7 +125,7 @@ You can use npm or yarn to new package manager for this project 👍 .
 3) deploy for ssr ```npm run build``` or ```yarn build``` and for csr, ssg ```npm run generate``` or ```yarn generate```
 
 
-### Update nuxt version by yourself
+### Update nuxt version by yourself 📈 
 update package.json (pnpm example)
 ```
 pnpm update nuxt
