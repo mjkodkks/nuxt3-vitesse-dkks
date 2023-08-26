@@ -11,16 +11,15 @@ watchEffect(() => {
 
 <template>
   <div>
-    <div i-twemoji:waving-hand text-4xl inline-block animate-shake-x animate-duration-5000 />
-    <h3 text-2xl font-500>
-      Hi,
+    <h3 class="text-2xl">
+     ✋ Hi,
     </h3>
-    <div text-xl>
+    <div class="text-xl">
       {{ name }}!
     </div>
 
     <template v-if="user.otherNames.length">
-      <p text-sm my-4>
+      <p class="text-sm">
         <span op-50>Also as known as:</span>
         <ul>
           <li v-for="otherName in user.otherNames" :key="otherName">

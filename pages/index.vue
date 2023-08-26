@@ -1,16 +1,11 @@
 <template>
   <div>
     <Logos class="mb-2" />
-    <div class="block">
-      <NuxtLink to="/dkks">
-        DKKs page
-      </NuxtLink>
-    </div>
     <Suspense>
       <PageView />
       <template #fallback>
-        <div op50 italic>
-          <span animate-pulse>Loading...</span>
+        <div class="text-2xl">
+          <span class="animate-pulse">Loading...</span>
         </div>
       </template>
     </Suspense>
@@ -22,7 +17,7 @@
           tailwindcss v3.3.3
         </li>
         <li class="text-left">
-          nuxt v3.6.5
+          nuxt v3.7.0
         </li>
         <!-- ... -->
       </ul>

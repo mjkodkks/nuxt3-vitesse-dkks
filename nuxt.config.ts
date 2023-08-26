@@ -46,6 +46,7 @@ export default defineNuxtConfig({
     tsConfig: {
       include: ['./types/**/*.d.ts'],
     },
+    shim: false
   },
 
   devtools: {
