@@ -1,4 +1,4 @@
-import { acceptHMRUpdate, defineStore } from 'pinia'
+import { acceptHMRUpdate } from 'pinia'
 
 export const useUserStore = defineStore('user', {
   state: () => {

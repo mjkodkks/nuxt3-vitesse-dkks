@@ -33,6 +33,20 @@ export default defineNuxtConfig({
     classSuffix: '',
   },
 
+  pinia: {
+    autoImports: [
+      // automatically imports `defineStore`
+      'defineStore',
+    ],
+  },
+
+  imports: {
+    dirs: [
+      // Scan top-level store modules
+      'stores',
+    ],
+  },
+
   css: ['~/assets/css/main.css'],
 
   postcss: {
