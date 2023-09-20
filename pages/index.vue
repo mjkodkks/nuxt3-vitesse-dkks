@@ -1,3 +1,8 @@
+<script setup lang="ts">
+  const config = useRuntimeConfig()
+  const whatEnv = config.public.WHAT_ENV
+</script>
+
 <template>
   <div>
     <Logos class="mb-2" />
@@ -18,6 +23,9 @@
         </li>
         <li class="text-left">
           nuxt v3.7.3
+        </li>
+        <li v-if="whatEnv">
+          what env : <span class="text-green-400">{{ whatEnv }}</span>
         </li>
         <!-- ... -->
       </ul>

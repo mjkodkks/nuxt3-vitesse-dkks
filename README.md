@@ -26,7 +26,7 @@ Or ```CodeSandbox```
 
 - 🔥 The `<script setup>` syntax
 
-- 🍍 [State Management via Pinia](https://pinia.esm.dev), see [./composables/user.ts](./composables/user.ts)
+- 🍍 [State Management via Pinia](https://pinia.esm.dev), see [./stores/user.ts](./stores/user.ts)
 
 - 📑 [Layout system](./layouts)
 
@@ -79,30 +79,101 @@ Improve your DX, finding bugs, tracking data flow and pinia
 pnpm i
 pnpm dev
 ```
+### Environment Variables and Multiple Environments.
+For multiple environments can use ```.env``` and ```.env.prod``` or ```.env.whatever```
 
-### Deployment
+example : 
+1) create ```.env``` and ```.env.prod``` in root of project.
+
+.env
+```env
+WHAT_ENV="env_dev"
+```
+
+.env.prod
+```.env
+WHAT_ENV="env_prod"
+```
+
+2) Add to ```nuxt.config.ts``` runtimeConfig -> public in this case will expose your env.
+for private or secret please read https://nuxt.com/docs/guide/going-further/runtime-config
+```js
+  ...,
+  runtimeConfig: {
+    public: {
+      WHAT_ENV: process.env.WHAT_ENV || 'env_dev'
+    }
+  },
+  ...
+```
+
+3) Use in project by composables.
+```js
+<script setup lang="ts">
+  const config = useRuntimeConfig()
+  const whatEnv = config.public.WHAT_ENV
+</script>
+
+<template>
+    <div> {{ whatEnv }} </div>
+</template>
+```
+
+4) run this command.
+```sh
+pnpm run start:dev
+## equal (=)
+nuxi dev --dotenv .env
+
+or 
+
+pnpm run start:prod
+## equal (=)
+nuxi dev --dotenv .env.prod
+```
+
+## Deployment
 
 [full documentation](https://nuxt.com/docs/getting-started/deployment)
 
-For SSR
+| Mode | (ssr) nuxt.config.ts | command       | multiple environment             |
+|------|----------------------|---------------|----------------------------------|
+| SSR  | true                 | pnpm build    | pnpm build --dotenv .env.prod    |
+| SPA  | false                | pnpm generate | pnpm generate --dotenv .env.prod |
+| SSG  | true                 | pnpm generate | pnpm generate --dotenv .env.prod |
+
+### For SSR (server side rendering)
 ```
-pnpm run build
+pnpm build
 ```
-For CSR or SSG
+### For SPA (sigle page apllication)
 
 nuxt.config.ts
 ```
 {
-    ...,
+    ... ,
     ssr: false,
-    ...,
+    ... ,
 }
 ```
 then 
 ```
-pnpm run generate
+pnpm generate
 ```
 
+### For SSG (static site generation)
+nuxt.config.ts
+```
+{
+    ... ,
+    ssr: true,
+    ... ,
+}
+```
+then 
+```
+pnpm generate
+```
 ### Docker
 If you use Docker for standalone server
 

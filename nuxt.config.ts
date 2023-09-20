@@ -65,5 +65,11 @@ export default defineNuxtConfig({
 
   devtools: {
     enabled: true
+  },
+
+  runtimeConfig: {
+    public: {
+      WHAT_ENV: process.env.WHAT_ENV || 'env_dev'
+    }
   }
 })
