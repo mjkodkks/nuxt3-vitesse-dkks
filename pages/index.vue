@@ -22,7 +22,7 @@
           tailwindcss v3.3.3
         </li>
         <li class="text-left">
-          nuxt v3.7.3
+          nuxt v3.7.4
         </li>
         <li v-if="whatEnv">
           what env : <span class="text-green-400">{{ whatEnv }}</span>
