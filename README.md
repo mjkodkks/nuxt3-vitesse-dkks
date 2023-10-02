@@ -40,6 +40,8 @@ Or ```CodeSandbox```
 
 - 📱 [Nuxtr](https://marketplace.visualstudio.com/items?itemName=Nuxtr.nuxtr-vscode) Use nuxt commands with a few clicks.
 
+- 📱 [i18n](https://vue-i18n.intlify.dev/guide/integrations/nuxt3) Internationalization for Nuxt Applications.
+
 ## Plugins
 
 ### Nuxt Modules
