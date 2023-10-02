@@ -27,6 +27,9 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@pinia/nuxt',
     '@nuxtjs/color-mode',
+    // i18n support by nuxt module
+    // comment if you don't want to use i18n.
+    '@nuxtjs/i18n',
   ],
 
   colorMode: {
@@ -38,6 +41,12 @@ export default defineNuxtConfig({
       // automatically imports `defineStore`
       'defineStore',
     ],
+  },
+
+  // i18n support
+  // comment if you don't want to use i18n.
+  i18n: {
+    vueI18n: './i18n.config.ts' 
   },
 
   imports: {
