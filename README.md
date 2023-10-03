@@ -40,7 +40,7 @@ Or ```CodeSandbox```
 
 - 📱 [Nuxtr](https://marketplace.visualstudio.com/items?itemName=Nuxtr.nuxtr-vscode) Use nuxt commands with a few clicks.
 
-- 📱 [i18n](https://vue-i18n.intlify.dev/guide/integrations/nuxt3) Internationalization for Nuxt Applications.
+- 🌐 [i18n](https://vue-i18n.intlify.dev/guide/integrations/nuxt3) Internationalization for Nuxt Applications.
 
 ## Plugins
 
@@ -144,11 +144,11 @@ nuxi dev --dotenv .env.prod
 | SPA  | false                | pnpm generate | pnpm generate --dotenv .env.prod |
 | SSG  | true                 | pnpm generate | pnpm generate --dotenv .env.prod |
 
-### For SSR (server side rendering)
+### For SSR (server-side rendering)
 ```
 pnpm build
 ```
-### For SPA (sigle page apllication)
+### For SPA (single page application)
 
 nuxt.config.ts
 ```
