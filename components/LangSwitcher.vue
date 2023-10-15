@@ -5,7 +5,7 @@ const { locale } = useI18n()
 <template>
   <div>
     <form>
-      <select v-model="locale">
+      <select v-model="locale" class="bg-transparent outline outline-1">
         <option value="en">en</option>
         <option value="th">th</option>
       </select>
