@@ -36,13 +36,6 @@ export default defineNuxtConfig({
     classSuffix: '',
   },
 
-  pinia: {
-    autoImports: [
-      // automatically imports `defineStore`
-      'defineStore',
-    ],
-  },
-
   // i18n support
   // comment if you don't want to use i18n.
   i18n: {
