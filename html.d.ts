@@ -1,4 +1,4 @@
-// for UnoCSS attributify mode compact in Volar
+// for UnoCSS attributify mode compact in Volar. If you want to change to UnoCSS
 // refer: https://github.com/johnsoncodehk/volar/issues/1077#issuecomment-1145361472
 declare module '@vue/runtime-dom' {
   interface HTMLAttributes {
