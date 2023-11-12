@@ -87,12 +87,12 @@ For multiple environments can use ```.env``` and ```.env.prod``` or ```.env.what
 example : 
 1) create ```.env``` and ```.env.prod``` in root of project.
 
-.env
+- .env
 ```env
 WHAT_ENV="env_dev"
 ```
 
-.env.prod
+- .env.prod
 ```.env
 WHAT_ENV="env_prod"
 ```
@@ -150,7 +150,7 @@ pnpm build
 ```
 ### For SPA (single page application)
 
-nuxt.config.ts
+- nuxt.config.ts
 ```
 {
     ... ,
@@ -164,7 +164,8 @@ pnpm generate
 ```
 
 ### For SSG (static site generation)
-nuxt.config.ts
+
+- nuxt.config.ts
 ```
 {
     ... ,
@@ -180,6 +181,16 @@ pnpm generate
 If you use Docker for standalone server
 
 I already create ```Dockerfile``` and ```docker-compose.yml``` for easy deployment in (SSR Mode)
+
+SPA, SSG please comment ```pnpm run build``` and uncomment ```RUN pnpm run generate```
+
+- Dockerfile
+```sh
+# build the project
+# RUN pnpm run build
+# for spa and ssg
+RUN pnpm run generate
+```
 
 easy to use via run ```./deploy-prod.sh``` file (Linux or Mac OS). For windows ```./deploy-prod.bat```
 
@@ -199,7 +210,7 @@ You can use npm or yarn to new package manager for this project 👍 .
 
 
 ### Update nuxt version by yourself 📈 
-update package.json (pnpm example)
+Update ```package.json``` (pnpm example)
 ```
 pnpm update nuxt
 ```
