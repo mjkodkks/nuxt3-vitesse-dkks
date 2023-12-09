@@ -15,8 +15,8 @@
     "generate": "nuxi generate"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.3.4",
-    "@nuxt/devtools": "^1.0.4",
+    "@antfu/eslint-config": "^2.4.3",
+    "@nuxt/devtools": "^1.0.5",
     "@nuxtjs/color-mode": "^3.3.2",
     "@nuxtjs/i18n": "npm:@nuxtjs/i18n-edge",
     "@pinia/nuxt": "^0.5.1",
@@ -27,6 +27,6 @@
     "pinia": "^2.1.7",
     "postcss": "^8.4.32",
     "tailwindcss": "^3.3.6",
-    "typescript": "^5.3.2"
+    "typescript": "^5.3.3"
   }
 }
