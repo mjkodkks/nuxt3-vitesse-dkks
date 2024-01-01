@@ -9,7 +9,7 @@
   // Auto fix
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
-    "source.organizeImports": false
+    "source.organizeImports": "never"
   },
 
   // postcss
