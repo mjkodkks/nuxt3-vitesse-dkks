@@ -23,7 +23,7 @@ const whatEnv = config.public.WHAT_ENV
           tailwindcss v3.4.1
         </li>
         <li class="text-left">
-          nuxt v3.9.1
+          nuxt v3.9.3
         </li>
         <li v-if="whatEnv">
           what env : <span class="text-green-400">{{ whatEnv }}</span>
