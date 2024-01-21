@@ -4,3 +4,5 @@ npm-debug.log
 .gitignore
 *.md
 dist
+.nuxt
+.output

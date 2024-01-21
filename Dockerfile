@@ -1,6 +1,6 @@
-FROM node:18-alpine as builder
+FROM node:20.11-slim as builder
 
-RUN apk update && apk upgrade
+RUN apt-get update && apt-get upgrade
 RUN npm i -g pnpm
 
 WORKDIR /app
@@ -16,12 +16,12 @@ RUN pnpm run build
 # RUN pnpm run generate
 
 # start final image
-FROM node:18-alpine as runner
+FROM node:20.11-slim as runner
 
 WORKDIR /app
 
 # copy over build files from builder step
-COPY --from=builder /app/.output  /app
+COPY --from=builder /app/.output  /app/.output
 
 ENV NUXT_HOST=0.0.0.0
 ENV NUXT_PORT=3000
