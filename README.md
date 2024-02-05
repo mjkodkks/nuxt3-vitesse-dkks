@@ -109,14 +109,14 @@ for private or secret please read https://nuxt.com/docs/guide/going-further/runt
 ```
 
 3) Use in project by composables.
-```sh
+```vue
 <script setup lang="ts">
-  const config = useRuntimeConfig()
-  const whatEnv = config.public.WHAT_ENV
+const config = useRuntimeConfig()
+const whatEnv = config.public.WHAT_ENV
 </script>
 
 <template>
-    <div> {{ whatEnv }} </div>
+  <div> {{ whatEnv }} </div>
 </template>
 ```
 
@@ -150,7 +150,7 @@ pnpm build
 ### For SPA (single page application)
 
 - nuxt.config.ts
-```
+```sh
 {
     ... ,
     ssr: false,
@@ -165,7 +165,7 @@ pnpm generate
 ### For SSG (static site generation)
 
 - nuxt.config.ts
-```
+```sh
 {
     ... ,
     ssr: true,
@@ -173,7 +173,7 @@ pnpm generate
 }
 ```
 then
-```
+```sh
 pnpm generate
 ```
 ### Docker
@@ -207,14 +207,17 @@ You can use npm or yarn to new package manager for this project 👍 .
 3) deploy for ssr ```npm run build``` or ```yarn build``` and for csr, ssg ```npm run generate``` or ```yarn generate```
 
 ### Update nuxt version by yourself 📈
-Update ```package.json``` (pnpm example)
-```
-pnpm update nuxt
-```
-then
-```
+```sh
 npx nuxi upgrade --force
 ```
+
+if version can't change
+
+Update ```package.json``` (pnpm example)
+```sh
+pnpm update nuxt
+```
+
 ** [Nuxt Version Here](https://github.com/nuxt/nuxt/releases)
 
 ### Clone to local
