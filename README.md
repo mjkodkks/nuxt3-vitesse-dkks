@@ -217,6 +217,11 @@ Update ```package.json``` (pnpm example)
 ```sh
 pnpm update nuxt
 ```
+then
+```sh
+npx nuxi upgrade --force
+```
+for clean your lock file and node_modules.
 
 ** [Nuxt Version Here](https://github.com/nuxt/nuxt/releases)
 
