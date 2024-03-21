@@ -15,18 +15,18 @@
     "generate": "nuxi generate"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.8.0",
-    "@nuxt/devtools": "^1.0.8",
-    "@nuxtjs/color-mode": "^3.3.2",
-    "@nuxtjs/i18n": "8.1.1",
+    "@antfu/eslint-config": "^2.8.3",
+    "@nuxt/devtools": "^1.1.1",
+    "@nuxtjs/color-mode": "^3.3.3",
+    "@nuxtjs/i18n": "8.2.0",
     "@pinia/nuxt": "^0.5.1",
     "@vueuse/nuxt": "^10.9.0",
-    "autoprefixer": "^10.4.18",
+    "autoprefixer": "^10.4.19",
     "eslint": "^8.57.0",
     "nuxt": "^3.10.3",
     "pinia": "^2.1.7",
-    "postcss": "^8.4.35",
+    "postcss": "^8.4.38",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5.4.2"
+    "typescript": "^5.4.3"
   }
 }
