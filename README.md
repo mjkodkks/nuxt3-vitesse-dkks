@@ -225,6 +225,9 @@ for clean your lock file and node_modules.
 
 ** [Nuxt Version Here](https://github.com/nuxt/nuxt/releases)
 
+latest version:
+<a href="https://www.npmjs.com/package/nuxt"><img src="https://img.shields.io/npm/v/nuxt.svg?style=flat&colorA=18181B&colorB=28CF8D" alt="Version"></a>
+
 ### Clone to local
 
 If you prefer to do it manually with the cleaner git history
