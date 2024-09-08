@@ -73,5 +73,7 @@ export default defineNuxtConfig({
     public: {
       WHAT_ENV: process.env.WHAT_ENV || 'env_dev'
     }
-  }
+  },
+
+  compatibilityDate: '2024-09-08'
 })

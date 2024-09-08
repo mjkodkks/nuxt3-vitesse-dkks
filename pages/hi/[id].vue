@@ -6,20 +6,19 @@ const name = route.params.id
 watchEffect(() => {
   user.setNewName(route.params.id as string)
 })
-
 </script>
 
 <template>
   <div>
     <h3 class="text-2xl">
-     ✋ Hi,
+      ✋ Hi,
     </h3>
     <div class="text-xl">
       {{ name }}!
     </div>
 
     <template v-if="user.otherNames.length">
-      <p class="text-sm">
+      <div class="text-sm">
         <span op-50>Also as known as:</span>
         <ul>
           <li v-for="otherName in user.otherNames" :key="otherName">
@@ -28,7 +27,7 @@ watchEffect(() => {
             </router-link>
           </li>
         </ul>
-      </p>
+      </div>
     </template>
 
     <Counter />
