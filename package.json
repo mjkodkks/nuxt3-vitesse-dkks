@@ -16,17 +16,17 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.7.3",
-    "@nuxt/devtools": "^1.5.1",
+    "@nuxt/devtools": "^1.6.0",
     "@nuxtjs/color-mode": "^3.5.1",
     "@nuxtjs/i18n": "8.5.5",
-    "@pinia/nuxt": "^0.5.4",
+    "@pinia/nuxt": "^0.5.5",
     "@vueuse/nuxt": "^11.1.0",
     "autoprefixer": "^10.4.20",
     "eslint": "^9.11.1",
     "nuxt": "^3.13.2",
-    "pinia": "^2.2.2",
+    "pinia": "^2.2.4",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.13",
-    "typescript": "^5.6.2"
+    "typescript": "^5.6.3"
   }
 }
