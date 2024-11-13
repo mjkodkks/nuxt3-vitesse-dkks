@@ -1,4 +1,4 @@
-FROM node:20.11-slim as builder
+FROM node:22.11.0-bookworm-slim as builder
 
 RUN apt-get update && apt-get upgrade
 RUN npm i -g pnpm
@@ -16,7 +16,7 @@ RUN pnpm run build
 # RUN pnpm run generate
 
 # start final image
-FROM node:20.11-slim as runner
+FROM node:22.11.0-bookworm-slim as runner
 
 WORKDIR /app
 
