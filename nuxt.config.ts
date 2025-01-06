@@ -1,3 +1,5 @@
+import process from 'node:process'
+
 export default defineNuxtConfig({
   app: {
     head: {
@@ -39,7 +41,7 @@ export default defineNuxtConfig({
   // i18n support
   // comment if you don't want to use i18n.
   i18n: {
-    vueI18n: './i18n.config.ts' 
+    vueI18n: './i18n.config.ts',
   },
 
   imports: {
@@ -62,18 +64,18 @@ export default defineNuxtConfig({
     tsConfig: {
       include: ['./types/**/*.d.ts'],
     },
-    shim: false
+    shim: false,
   },
 
   devtools: {
-    enabled: true
+    enabled: true,
   },
 
   runtimeConfig: {
     public: {
-      WHAT_ENV: process.env.WHAT_ENV || 'env_dev'
-    }
+      WHAT_ENV: process.env.WHAT_ENV || 'env_dev',
+    },
   },
 
-  compatibilityDate: '2024-09-08'
+  compatibilityDate: '2024-09-08',
 })
