@@ -1,4 +1,5 @@
 import process from 'node:process'
+import tailwindcss from '@tailwindcss/vite'
 
 export default defineNuxtConfig({
   app: {
@@ -41,7 +42,19 @@ export default defineNuxtConfig({
   // i18n support
   // comment if you don't want to use i18n.
   i18n: {
-    vueI18n: './i18n.config.ts',
+    defaultLocale: 'en',
+    locales: [
+      {
+        code: 'en',
+        name: 'English',
+        file: 'en.json',
+      },
+      {
+        code: 'th',
+        name: 'Thai',
+        file: 'th.json',
+      },
+    ],
   },
 
   imports: {
@@ -53,13 +66,6 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
-  },
-
   typescript: {
     tsConfig: {
       include: ['./types/**/*.d.ts'],
@@ -69,6 +75,12 @@ export default defineNuxtConfig({
 
   devtools: {
     enabled: true,
+  },
+
+  vite: {
+    plugins: [
+      tailwindcss(),
+    ],
   },
 
   runtimeConfig: {
