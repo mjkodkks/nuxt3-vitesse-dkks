@@ -2,7 +2,7 @@
 const name = ref('')
 
 const router = useRouter()
-const go = () => {
+function go() {
   if (name.value)
     router.push(`/hi/${encodeURIComponent(name.value)}`)
 }
@@ -15,8 +15,7 @@ const go = () => {
       v-model="name"
       placeholder="What's your name?"
       type="text" autocomplete="off"
-      outline="none active:none"
-      class="px-4 py-2 mt-5 w-[250px] text-center bg-transparent border rounded-md dark:grey-[700] outline-none active:outline-none"
+      class="px-4 py-2 mt-5 w-[250px] text-center bg-transparent border rounded-md dark:grey-[700] outline-none focus:outline-none active:outline-none"
       @keydown.enter="go"
     >
     <div>
