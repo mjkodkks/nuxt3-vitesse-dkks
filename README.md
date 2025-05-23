@@ -4,7 +4,7 @@
 
 [🖥 DEMO 🖥](https://vitesse-nuxt3-dkks.netlify.app/)
 
-#### ☁ Try in the Cloud 
+#### ☁ Try in the Cloud
 [![Open in VS Code](https://img.shields.io/badge/Open%20in-VS%20Code-blue?logo=visualstudiocode)](https://vscode.dev/github/mjkodkks/nuxt3-vitesse-dkks)
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/mjkodkks/nuxt3-vitesse-dkks)
 [![Open in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/embed/react-markdown-preview-co1mj?fontsize=14&hidenavigation=1&theme=dark)
@@ -52,7 +52,7 @@
 
 ## IDE
 
-We recommend using [VS Code](https://code.visualstudio.com/) with [Volar](https://github.com/johnsoncodehk/volar) to get the best experience (You might want to disable Vetur if you have it).
+We recommend using [VS Code](https://code.visualstudio.com/) with [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to get the best experience (You might want to disable Vetur if you have it).
 - [Nuxtr](https://marketplace.visualstudio.com/items?itemName=Nuxtr.nuxtr-vscode) An extension offering commands and tools to make your experience with Nuxt.js more pleasant.
 
 ## Dev tools

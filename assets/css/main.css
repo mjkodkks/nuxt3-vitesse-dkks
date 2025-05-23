@@ -1,3 +1,17 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --color-dodger-blue: #3B82F6;
+    --color-dodger-blue-50: #EBF2FE;
+    --color-dodger-blue-100: #D7E6FD;
+    --color-dodger-blue-200: #B0CDFB;
+    --color-dodger-blue-300: #89B4FA;
+    --color-dodger-blue-400: #629BF8;
+    --color-dodger-blue-500: #3B82F6;
+    --color-dodger-blue-600: #0B61EE;
+    --color-dodger-blue-700: #084BB8;
+    --color-dodger-blue-800: #063583;
+    --color-dodger-blue-900: #041F4D;
+}

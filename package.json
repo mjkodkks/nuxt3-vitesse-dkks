@@ -2,7 +2,7 @@
   "name": "nuxt3-vitesse-dkks",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@9.9.0",
+  "packageManager": "pnpm@10.11.0+sha512.6540583f41cc5f628eb3d9773ecee802f4f9ef9923cc45b69890fb47991d4b092964694ec3a4f738a420c918a333062c8b925d312f42e4f0c263eb603551f977",
   "scripts": {
     "build": "nuxi build",
     "dev": "nuxi dev",
@@ -15,18 +15,17 @@
     "generate": "nuxi generate"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^3.12.1",
-    "@nuxt/devtools": "^1.7.0",
+    "@antfu/eslint-config": "^4.13.2",
+    "@nuxt/devtools": "^2.4.1",
     "@nuxtjs/color-mode": "^3.5.2",
-    "@nuxtjs/i18n": "^9.1.1",
-    "@pinia/nuxt": "^0.9.0",
-    "@vueuse/nuxt": "^12.3.0",
-    "autoprefixer": "^10.4.20",
-    "eslint": "^9.17.0",
-    "nuxt": "^3.15.1",
-    "pinia": "^2.3.0",
-    "postcss": "^8.4.49",
-    "tailwindcss": "^3.4.17",
-    "typescript": "^5.7.2"
+    "@nuxtjs/i18n": "^9.5.4",
+    "@pinia/nuxt": "^0.11.0",
+    "@tailwindcss/vite": "^4.1.7",
+    "@vueuse/nuxt": "^13.2.0",
+    "eslint": "^9.27.0",
+    "nuxt": "^3.17.4",
+    "pinia": "^3.0.2",
+    "tailwindcss": "^4.1.7",
+    "typescript": "^5.8.3"
   }
 }

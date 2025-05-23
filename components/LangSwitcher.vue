@@ -5,9 +5,13 @@ const { locale } = useI18n()
 <template>
   <div>
     <form>
-      <select v-model="locale" class="bg-transparent outline outline-1">
-        <option value="en">en</option>
-        <option value="th">th</option>
+      <select v-model="locale" class="outline-1 text-black bg-white dark:bg-gray-400 dark:text-white">
+        <option value="en">
+          en
+        </option>
+        <option value="th">
+          th
+        </option>
       </select>
       <p>{{ $t('welcome') }}</p>
     </form>
