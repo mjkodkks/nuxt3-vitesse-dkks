@@ -68,6 +68,9 @@ export default defineNuxtConfig({
 
   typescript: {
     tsConfig: {
+      compilerOptions: {
+        module: 'ESNext',
+      },
       include: ['./types/**/*.d.ts'],
     },
     shim: false,
