@@ -2,7 +2,10 @@ import process from 'node:process'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineNuxtConfig({
+  ssr: false,
+
   app: {
+    baseURL: '/nuxt3-vitesse-dkks',
     head: {
       viewport: 'width=device-width,initial-scale=1',
       meta: [
@@ -18,10 +21,18 @@ export default defineNuxtConfig({
         target: 'esnext',
       },
     },
-    prerender: {
-      crawlLinks: false,
-      routes: ['/'],
-      ignore: ['/hi'],
+  },
+
+  // // clear all routes for single file
+  hooks: {
+    'prerender:routes': ({ routes }) => {
+      routes.clear()
+    },
+  },
+
+  router: {
+    options: {
+      hashMode: true,
     },
   },
 
