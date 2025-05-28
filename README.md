@@ -4,6 +4,8 @@
 
 [🖥 DEMO 🖥](https://vitesse-nuxt3-dkks.netlify.app/)
 
+[🖥 DEMO - SPA 🖥](https://mjkodkks.github.io/nuxt3-vitesse-dkks/#/)
+
 #### ☁ Try in the Cloud
 [![Open in VS Code](https://img.shields.io/badge/Open%20in-VS%20Code-blue?logo=visualstudiocode)](https://vscode.dev/github/mjkodkks/nuxt3-vitesse-dkks)
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/mjkodkks/nuxt3-vitesse-dkks)

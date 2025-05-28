@@ -20,12 +20,12 @@
     "@nuxtjs/color-mode": "^3.5.2",
     "@nuxtjs/i18n": "^9.5.4",
     "@pinia/nuxt": "^0.11.0",
-    "@tailwindcss/vite": "^4.1.7",
-    "@vueuse/nuxt": "^13.2.0",
+    "@tailwindcss/vite": "^4.1.8",
+    "@vueuse/nuxt": "^13.3.0",
     "eslint": "^9.27.0",
     "nuxt": "^3.17.4",
     "pinia": "^3.0.2",
-    "tailwindcss": "^4.1.7",
+    "tailwindcss": "^4.1.8",
     "typescript": "^5.8.3"
   }
 }

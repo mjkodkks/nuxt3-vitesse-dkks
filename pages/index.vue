@@ -25,7 +25,7 @@ const whatEnv = config.public.WHAT_ENV
         <li class="text-left">
           nuxt: v3.17.4
         </li>
-        <li v-if="whatEnv">
+        <li v-if="whatEnv" class="text-left">
           what env : <span class="text-green-400">{{ whatEnv }}</span>
         </li>
         <!-- ... -->

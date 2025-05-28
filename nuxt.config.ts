@@ -43,16 +43,17 @@ export default defineNuxtConfig({
   // comment if you don't want to use i18n.
   i18n: {
     defaultLocale: 'en',
+    strategy: 'no_prefix',
     locales: [
       {
         code: 'en',
         name: 'English',
-        file: 'en.json',
+        file: 'en-EN.json',
       },
       {
         code: 'th',
         name: 'Thai',
-        file: 'th.json',
+        file: 'th-TH.json',
       },
     ],
   },
@@ -78,6 +79,10 @@ export default defineNuxtConfig({
 
   devtools: {
     enabled: true,
+
+    timeline: {
+      enabled: true,
+    },
   },
 
   vite: {
@@ -92,5 +97,5 @@ export default defineNuxtConfig({
     },
   },
 
-  compatibilityDate: '2024-09-08',
+  compatibilityDate: '2025-05-29',
 })
